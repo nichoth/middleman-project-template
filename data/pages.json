@@ -112,5 +112,34 @@
         "cta": "theme1 nested subdir test page section 3 cta"
       }
     ]
+  },
+  {
+    "name": "component-demo",
+    "title": "Component Demo",
+    "body_class": "fs-page_component-demo",
+    "sections": [
+      {
+        "template": "slider-demo",
+        "headline": "Image Slider",
+        "url": "http://placehold.it/",
+        "imgs": [
+          "500x400",
+          "600x400"
+        ]
+      },
+      {
+        "template": "img-grid-demo",
+        "headline": "Image Grid",
+        "url": "http://placehold.it/",
+        "imgs": [
+          "200x200",
+          "200x200",
+          "200x200",
+          "200x200",
+          "200x200",
+          "200x200"
+        ]
+      }
+    ]
   }
 ]

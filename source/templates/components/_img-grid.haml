@@ -1,0 +1,6 @@
+- path = data.url ? data.url : images_path
+.container
+.row
+    - data.imgs.each do |img|
+        .col-xs-6.col-sm-4.col-md-3.img-grid-demo
+            %img{:src => path + img}

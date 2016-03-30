@@ -1,0 +1,6 @@
+- path = data.url ? data.url : images_path
+.flexslider
+    %ul.slides
+        - data.imgs.each do |img|
+            %li
+                %img{:src => path + img}
