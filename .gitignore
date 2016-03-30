@@ -22,8 +22,6 @@ node_modules/*
 *.log
 
 # ignore build dirs
-build
-build/*
 time-order-forms
 time-order-forms/*
 people

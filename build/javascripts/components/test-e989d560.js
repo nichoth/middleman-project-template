@@ -1,0 +1,1 @@
+!function(e){e(".flexslider").flexslider({animation:"fade"})}(jQuery);
