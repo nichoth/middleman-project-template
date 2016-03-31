@@ -3,9 +3,6 @@
   "name": "middleman-project-template",
   "version": "0.0.1",
   "homepage": "",
-  "scripts": {
-    "postinstall": "cp node_modules/ideal-image-slider/ideal-image-slider.css source/stylesheets/components/_image-slider.scss"
-  }
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
@@ -13,7 +10,7 @@
   },
   "dependencies": {
     "bootstrap-sass": "^3.3.6",
-    "ideal-image-slider": "^1.5.1",
+    "flexslider": "^2.6.0",
     "jquery": "^2.2.0"
   }
 }
